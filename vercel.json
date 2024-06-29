@@ -1,10 +1,10 @@
 {
-    "build": {
-        "env": {
-            "NODE_ENV": "production"
-        }
-    },
-    "engines": {
-        "node": "18.x"
+  "build": {
+    "env": {
+      "NODE_ENV": "production"
     }
+  },
+  "scripts": {
+    "build": "npm install --legacy-peer-deps && npm run build"
+  }
 }
