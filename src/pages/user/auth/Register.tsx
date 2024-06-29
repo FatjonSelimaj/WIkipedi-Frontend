@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
 import { passwordValidation, emailValidation } from '../../../lib/validators';
-import { RegisterProps } from '../../../interfaces/authInterfaces'
+import { RegisterProps } from '../../../interfaces/authInterfaces';
 
 const Register: React.FC<RegisterProps> = ({ onRegisterSuccess }) => {
   const [username, setUsername] = useState<string>('');
